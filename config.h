@@ -7,8 +7,13 @@ static const unsigned int snap      = 32;       /* snap pixel */
 static const int swallowfloating    = 0;        /* 1 means swallow floating windows by default */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
+<<<<<<< HEAD
 static const char *fonts[]          = { "GoMonoNerdFontMono-Regular:size=20" }; /* install package ttf-go-nerd */
 static const char dmenufont[]       = "GoMonoNerdFontMono-Regular:size=20";
+=======
+static const char *fonts[]          = { "GoMonoNerdFontMono-Regular:size=18" };
+static const char dmenufont[]       = "GoMonoNerdFontMono-Regular:size=18";
+>>>>>>> 33cf492 (fakefullscreen patch)
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
